@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Expenses App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f1efef;
+        }
+        header {
+            background-color: #e7e6e5;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+        .logo {
+            max-width: 100px;
+            height: auto;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: right;
+        }
+        nav ul li {
+            display: inline-block;
+            margin-left: 15px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        h1, h2, h3 {
+            color: #333;
+            text-align: left;
+        }
+        h2, h3 {
+            margin-bottom: 10px;
+        }
+        p {
+            margin-bottom: 15px;
+        }
+        ul {
+            margin-bottom: 15px;
+            padding-left: 20px;
+        }
+        #contact {
+            margin-bottom: 80px; 
+            overflow: auto;
+            clear: both;
+        }
+        .contact-info {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .feature {
+            margin-bottom: 20px;
+        }
+        .secured {
+            background-color: #f0f0f0;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+        .screenshots {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            background-color: #ffffff;
+        }
+        .screenshot {
+            width: calc(33.33% - 10px);
+            margin-bottom: 10px;
+        }
+        .screenshot img {
+            width: 100%;
+            height: auto;
+        }
+        footer {
+            background-color: #f1efef;
+            color: #111111;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            overflow: auto;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="images/logo.png" alt="Daily Expenses App Logo" class="logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#screenshots">Screenshots</a></li>
+                <li><a href="#secured">Secured</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We are dedicated to providing a reliable and user-friendly platform for managing your daily expenses effectively. Our goal is to simplify financial tracking and ensure data security.</p>
+        </section>
+
+        <section id="features">
+            <h2>Features Our Users Love</h2>
+            <div class="feature">
+                <h3>~ Manage Your Expenses Easily</h3>
+                <p>Track and manage expenses effortlessly with support for all major Indian currencies and regional denominations.</p>
+            </div>
+            <div class="feature">
+                <h3>~ Effortless Daily Spending Recording</h3>
+                <p>Record your daily expenses with our intuitive and user-friendly entry system.</p>
+            </div>
+            <div class="feature">
+                <h3>~ Quick Error Correction</h3>
+                <p>Easily correct any mistakes in your expense records using our simple edit feature.</p>
+            </div>
+            <div class="feature">
+                <h3>~ Easy Deletion</h3>
+                <p>Delete any unwanted expense records quickly with our easy delete feature.</p>
+            </div>
+            <div class="feature">
+                <h3>~ Transaction Insights</h3>
+                <p>View detailed insights on your spending habits, including which transaction methods you use most and total amounts spent.</p>
+            </div>
+            <div class="feature">
+                <h3>~ Secure Your Data</h3>
+                <p>Ensure the security of your expense data with our robust login and logout features to prevent unauthorized access.</p>
+            </div>
+            <div class="feature">
+                <h3>~ Password Recovery</h3>
+                <p>Effortlessly reset your password with email verification codes if you ever forget it.</p>
+            </div>
+            <div class="feature">
+                <h3>~ Continuous Access</h3>
+                <p>Stay logged in after the first login until you manually log out, ensuring convenient and quick access to your expense records.</p>
+            </div>
+            <div class="feature">
+                <h3>~ Data Recovery Assurance</h3>
+                <p>Rest assured that your expense data remains safe; even if you delete the app or change/lose your phone, you can recover your data by simply logging in again.</p>
+            </div>
+            <div class="feature">
+                <h3>~ Easy App Deletion</h3>
+                <p>At any time, you can delete the app along with all your expense data whenever you choose.</p>
+            </div>
+        </section>
+
+        <section id="screenshots">
+            <h2>Screenshots</h2>
+            <div class="screenshots">
+                <div class="screenshot">
+                    <img src="images/splash.png" alt="splash">
+                </div>
+                <div class="screenshot">
+                    <img src="images/home.PNG" alt="Home">
+                </div>
+                <div class="screenshot">
+                    <img src="images/create_account.PNG" alt="Create Account">
+                </div>
+                <div class="screenshot">
+                    <img src="images/login.PNG" alt="Login">
+                </div>
+                <div class="screenshot">
+                    <img src="images/add_expenses.PNG" alt="Add Expenses">
+                </div>
+                <div class="screenshot">
+                    <img src="images/forgot_password.PNG" alt="Forgot Password">
+                </div>
+            </div>
+        </section>
+
+        <section id="secured" class="secured">
+            <h2>Secured</h2>
+            <p>Protecting your financial information is our top priority. We employ advanced security measures to ensure your data remains safe and confidential.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contacting Us</h2>
+            <ul class="contact-info">
+                <li><strong>Email:</strong> venexposhopping@gmail.com</li>
+                <li><strong>Phone:</strong> +91 7305272720</li>
+                <li><strong>Address:</strong> Gerugambakkam, Chennai</li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Daily Expenses App. All rights reserved.</p>
+    </footer>
+</body>
+</html>
